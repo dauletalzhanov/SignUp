@@ -25,47 +25,56 @@
     <div class="main">
         <p>
             This is not a real online service! 
+            But join us today!
             Lorem ipsum dolor sit amet consectetur, 
             adipisicing elit. Necessitatibus, commodi!
         </p>
         <p> You know you want to...</p>
 
         <form >
-            <legend>Form</legend>
-            <div>
-                <label for="name" style="margin-right: 0.5vw;">Name</label>
-                <input type="text" placeholder="name..." name="name" id="name" required>
+            <div class="row">
+                <div class="col">
+                    <label for="name" style="margin-right: 0.5vw;">Name</label>
+                    <input type="text" placeholder="name..." name="name" id="name" required>
+                </div>
+
+                <div class="col">
+                    <label for="number" style="margin-right: 0.5vw;">Number</label>
+                    <input type="number" placeholder="number..." name="number" id="number" required>
+                </div>
             </div>
 
-            <div>
-                <label for="number" style="margin-right: 0.5vw;">Number</label>
-                <input type="number" placeholder="number..." name="number" id="number" required>
+            <div class="row">
+                <div class="col">
+                    <label for="email" style="margin-right: 0.5vw;">Email</label>
+                    <input type="email" placeholder="email..." name="email" id="email">
+                </div>
+    
+                <div class="col">
+                    <label for="email2" style="margin-right: 0.5vw;">Confirm Email</label>
+                    <input type="email" placeholder="email..." name="email2" id="email2">
+                </div>
             </div>
 
-            <div>
-                <label for="email" style="margin-right: 0.5vw;">Email</label>
-                <input type="email" placeholder="email..." name="email" id="email">
+
+            <div class="row">
+                <div class="col">
+                    <label for="password" style="margin-right: 0.5vw;">Password</label>
+                    <input type="password" minlength="8" name="password" id="password">
+                </div>
+    
+                <div class="col">
+                    <label for="password2" style="margin-right: 0.5vw;">Confirm Password</label>
+                    <input type="password"  name="password2" id="password2">
+                </div>
             </div>
 
-            <div>
-                <label for="email2" style="margin-right: 0.5vw;">Confirm Email</label>
-                <input type="email2" placeholder="email..." name="email2" id="email2">
-            </div>
+            <button>Create an Account</button>
+            <p style="font-size: 2vh; margin-top: 6vh;">Already have an account? <a style="text-decoration: none; color: peachpuff;" href="#">Log In Here</a></p>
 
-            <div>
-                <label for="password" style="margin-right: 0.5vw;">Password</label>
-                <input type="password" name="password" id="password">
-            </div>
-
-            <div>
-                <label for="password2" style="margin-right: 0.5vw;">Confirm Password</label>
-                <input type="password" name="password2" id="password2">
-            </div>
-
-            
-            
-            <Button>Submit</Button>
         </form>
+
+        
 
     </div>
     
