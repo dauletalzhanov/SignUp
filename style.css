@@ -97,6 +97,8 @@ form .row {
 
 form .row .col {
     margin-right: 5vh;
+    display: flex;
+    flex-direction: column;
 }
 
 form input {
@@ -110,10 +112,13 @@ form input {
 
 }
 
+form input:focus {
+    background-color: rgb(76, 105, 235);
 
+}
 
 form input::placeholder {
-    color: blueviolet;
+    color: rgb(78, 78, 78);
 }
 
 form button {
